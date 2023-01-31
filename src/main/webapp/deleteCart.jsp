@@ -18,7 +18,7 @@
 	<%
 	String id = request.getParameter("cardId");
 	
-	session.invalidate();
+	session.invalidate(); //핵쉼 !!
 	response.sendRedirect("cart.jsp");
 	%>
 </body>

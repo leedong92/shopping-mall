@@ -25,6 +25,14 @@
 			</h1>
 		</div>
 	</div>
+	<div class="text-center">
+		<input type="text" id="userId" name="userId" placeholder="아이디">
+		<br><br>
+		<input type="text" id="userPass" name="userPass" placeholder="비밀번호">
+		<br><br>
+		<input type="submit" class="btn btn-primary" value="로그인" >
+		<input type="submit" class="btn btn-primary" value="회원가입" >
+	</div>
 	
 	
 	

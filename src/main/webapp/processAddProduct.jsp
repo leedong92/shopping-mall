@@ -68,7 +68,7 @@
 	pstmt.setString(6, fileName);
 	
 	pstmt.executeUpdate();
-	System.out.println("등록 완료");
+	
 	
 	if(pstmt != null)pstmt.close();
 	if(conn != null)conn.close();
